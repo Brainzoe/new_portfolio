@@ -190,6 +190,10 @@
     text-align: center;
     padding: 10px;
   }
+  .contact-button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
   @media (min-width: 580px) {
     .cloud1 {
       font-size: 16px;
