@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:rgba(250, 235, 215, 0.125) ;
+    width: 100%;
+    
+}
+
+
+
+.cloud1{
+    float: right;
+    
+
+}
+.cloud2{
+    margin-left: 100px;
+}
+.underline-first-two span {
+  text-decoration: underline;
+}
+
+.id{
+    align-content: center;
+    text-align: center;
+    margin-left: px;
+    color:rgb(99, 170, 198);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.mountain{
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+.mo{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profPics{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 100PX;
+    text-align: center;
+    font-size:xx-large;
+    color:rgb(99, 170, 198);
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.pics{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:250px;
+    align-content: center;
+}
+.desc{
+    font-size: small;
+    color: black;
+}
+.contain{
+    align-content: center;
+    text-align: center;
+    padding: 10% ;
+    background:white;
+    
+}
+.container1{
+    display: inline-block;
+    align-content: center;
+    width: 10%;
+
+    
+}
+.line {
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: black;
+}
+
+.comp1{
+    width: 200px;
+
+}
+.ski1{
+    display: inline-flex;
+    font-size: small;
+    margin: 5px;
+
+}
+.ski1-text{
+    margin-left: 100px;
+    text-align: left;
+}
+.ski2{
+    float: right;
+    display: inline-flex;
+    font-size: small;
+    margin: 5px;
+
+}
+.ski2-text{
+    margin-right: 10px;
+    text-align: left;
+}
+.pot1{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    margin-bottom: 2%;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    transition: transform 0.3s ease;
+
+
+  }
+  
+  
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  .end{
+    background-color: white;
+  }
+  .footer{  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+
+  }
+  .contact-button{ width:auto;
+                    align-self: flex-end;
+                    border: 0;
+                    background-color:lightblue;
+                    border-radius: 20px;
+                    padding: 5px;
+                    margin: 5px;
+  }
+
+  .Socio {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+  }
+  
+  #ls1 {
+    text-align: center;
+    margin-left:10px;
+    padding: 0;
+  }
+  
+  #ls1 li{
+    display: inline-flex;
+    text-align: center;
+    margin: 40px;
+  }
+  .copy{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+  }
+  @media (min-width: 580px) {
+    .cloud1 {
+      font-size: 16px;
+      margin-right: 100px;
+    }
+    .cloud2{
+        margin-left: 200px;
+    }
+    .contact-button {
+        display: block;
+        margin-right:100px auto;
+      }
+      .profPics{
+        text-align: center;
+      }
+    
+    .id{
+        text-align: center;
+    }
+    }
+
+    @media (max-width: 520px){
+        .ski1{
+            display: block;
+        }
+        .ski2{
+            display: block;
+        }
+        .grid-container{
+            display: block;
+        }
+
+
+    }
+    a{
+        text-decoration: none;
+    }
+    
